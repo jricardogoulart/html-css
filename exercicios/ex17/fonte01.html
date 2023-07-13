@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>/*Style Local */
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+        body{
+            
+            font-family: 'Work Sans' ,Arial, Helvetica, sans-serif/*Nomes de fontes compostos usamos as aspas simples ou dupla, tanto faz*/, Courier, monospace;
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegada), px, pt e pc 
+            
+            Medidas Relativas
+            em(medida relativa ao tamanho atual da fonte - M maiúsculo de uma fonte)
+            ex(medida a ALTURA X de uma fonte - X minúsculo)
+            rem(Relativo que está configurado no body (em relação ao em configurado).)
+            vw(view width - Largura da viewport - tamanho da tela em %)
+            vh (altura da viewport)
+
+            */
+        }
+        h1{
+            /*font-size: 1em;
+            font-weight: normal ; peso da fonte
+            font-style: normal;
+            text-decoration: underline;
+            lighter, normal, bold e bolder*/
+            
+            /* shorthand font*/
+            font: italic bolder 3em 'Work Sans', sans-serif;
+           /* font-style -> font-weight -> font-size -> font-family*/
+        }
+        h2{
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dignissimos recusandae vel quam pariatur eligendi beatae minima sapiente, facilis sint est! Dignissimos, unde fugit. Aspernatur earum illum non ipsa harum?lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dignissimos recusandae vel quam pariatur eligendi beatae minima sapiente, facilis sint est! Dignissimos, unde fugit. Aspernatur earum illum non ipsa harum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium sint consequatur tempora hic nemo quos ducimus magni dolorem inventore odit, ut dolore accusantium cum vitae non at fugit, ea cumque!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sed enim similique quaerat sint incidunt explicabo iure voluptas placeat! Consequatur accusantium ab similique, perferendis nisi doloremque recusandae magni fugit fuga!</p>
+</body>
+</html>

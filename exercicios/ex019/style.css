@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+em HTML é id = em CSS é # (Pode Só um Elemento)
+em HTML é class = em CSS é .(Pode Vários Elementos)
+*/
+
+body{
+    background-color: #242e33;
+    font: normal 1em Arial, sans-serif; 
+    color: white;
+    /* shorthand font*/
+    /*font: italic bolder 3em 'Work Sans', sans-serif;*/
+    /* font-style -> font-weight -> font-size -> font-family*/
+    
+}
+
+h1{
+    color: rgb(50, 145, 141);
+}
+/*Cerquilha Significa ID (Identificador)*/
+h1#principal{
+    text-align: center;
+    background-color: #31647A;
+    color: white;
+}
+
+h2{
+    color: #024d6d;
+}
+/*O Ponto Significa Class(Classe"Vários")*/
+.basico{
+    color: #40f868;
+
+}
+.intermediario{
+    color: #fdfa33;
+}
+.avancado{
+    color: #ff2377;
+}
+.destaque{
+    background-color: #c08fff31;
+}
